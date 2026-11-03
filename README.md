@@ -4,10 +4,10 @@ An intelligent transportation and computer vision project designed for automated
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 Traditional methods (like Haar Cascade Classifiers) frequently fail under dynamic conditions such as heavy tree shadows, low contrast, and high-angle aerial (bird's-eye) views. This project addresses these limitations by integrating modern Deep Learning architectures with classical digital image processing pipelines.
 
-## 🛠️ Technological Stack & Architecture
+## Technological Stack & Architecture
 - **Language:** Python 3.10
 - **Deep Learning Model:** YOLOv8 Medium (`yolov8m`) via Ultralytics
 - **Image Processing:** OpenCV (`cv2.resize`, `cv2.cvtColor`, `cv2.GaussianBlur`)
@@ -16,7 +16,7 @@ Traditional methods (like Haar Cascade Classifiers) frequently fail under dynami
 
 ---
 
-## 🚀 Key Technical Features
+## Key Technical Features
 - **Adaptive Resolution Pipeline:** High-resolution drone and CCTV inputs (exceeding 1080p/1920px) are adaptively scaled maintaining exact aspect ratios to eliminate memory bottlenecks without losing small-vehicle fidelity.
 - **Preprocessing & Denoising:** Employs Gaussian Blur (5x5 kernel) and color space normalization to filter high-frequency noise and optimize input structural integrity.
 - **Precision Inference & Filtering:**
