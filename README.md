@@ -28,7 +28,7 @@ Traditional methods (like Haar Cascade Classifiers) frequently fail under dynami
 
 ## Local Installation & Setup
 
-1. **Clone the repository:**
+If you want to run this project locally on your machine, follow these steps:
 ```bash
 git clone https://github.com/ozlemnurbora/Traffic-Vehicle-Counter.git
 cd Traffic-Vehicle-Counter
