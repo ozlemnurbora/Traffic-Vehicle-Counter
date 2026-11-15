@@ -29,14 +29,7 @@ Traditional methods (like Haar Cascade Classifiers) frequently fail under dynami
 ## Local Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/ozlemnurbora/Traffic-Vehicle-Counter.git](https://github.com/ozlemnurbora/Traffic-Vehicle-Counter.git)
-   cd Traffic-Vehicle-Counter
-   Install dependencies:
-
-Bash
+git clone https://github.com/ozlemnurbora/Traffic-Vehicle-Counter.git
+cd Traffic-Vehicle-Counter
 pip install -r requirements.txt
-Run the Application:
-
-Bash
 python main.py
